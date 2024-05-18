@@ -1,0 +1,10 @@
+[[plugins]]
+repo = 'allworldg/github-nvim-theme'
+
+[[plugins]]
+repo = 'nvim-lualine/lualine.nvim'
+on_event = 'VimEnter'
+lua_source = '''
+vim.cmd [[ colorscheme github_dark_dimmed ]]
+require('lualine').setup()
+'''

@@ -1,0 +1,22 @@
+[[plugins]]
+repo = 'Shougo/ddu.vim'
+hooks_file = '~/AppData/Local/nvim/rc/ddu.vim'
+
+[[plugins]]
+repo = 'Shougo/ddu-ui-ff'
+hooks_file = '~/AppData/Local/nvim/rc/ddu-ff.vim'
+
+[[plugins]]
+repo = 'Shougo/ddu-source-file_rec'
+
+[[plugins]]
+repo = 'Shougo/ddu-source-buffer'
+
+[[plugins]]
+repo = 'Shougo/ddu-source-line'
+
+[[plugins]]
+repo = 'yuki-yano/ddu-filter-fzf'
+
+[[plugins]]
+repo = 'Shougo/ddu-kind-file'
